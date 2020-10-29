@@ -369,7 +369,7 @@ switch (behavior) {
 // Если светофор в аварийном режиме вывести "делай что хочешь"!
 
 let behavior = prompt("Input lights: green, amber, red, else")
-let isRoadClear = confirm("Is Road Cler")
+let isRoadClear = confirm("Is Road Clear")
 switch (behavior) {
     case "green":
         behavior = "иди";
